@@ -11,6 +11,10 @@ import { LoginComponent } from './components/login/login.component';
     RegistroComponent,
     LoginComponent
   ],
+  exports:[
+    RegistroComponent,
+    LoginComponent
+  ],
   imports: [
     CommonModule
   ]
